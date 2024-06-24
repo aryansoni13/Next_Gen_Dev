@@ -1,24 +1,27 @@
-# Number Guessing Game in C++
+# Advanced Calculator in C++
 
 ## Introduction
-Welcome to the Number Guessing Game! This game challenges you to guess a secret number between 1 and 100. After each guess, you'll receive feedback to help you narrow down the correct answer.
+Welcome to the Advanced Calculator! This program allows you to perform various arithmetic operations including addition, subtraction, multiplication, division, and modulus. It also keeps track of your calculation history and provides a user-friendly menu for easy interaction.
 
 ## Features
-- Randomly generates a secret number between 1 and 100.
-- Validates user input to ensure it's a valid number within the specified range.
-- Provides feedback (too low, too high) after each guess.
-- Celebrates your success when you guess the number correctly, displaying the number of attempts taken.
-- Includes messages based on the number of attempts, encouraging players based on their performance.
+- **Basic Arithmetic Operations**: Addition, Subtraction, Multiplication, Division, and Modulus.
+- **History Tracking**: Keeps a record of all calculations performed during the session.
+- **Clear Screen**: Option to clear the screen for better readability.
+- **User-Friendly Menu**: Simple menu interface for selecting operations and viewing history.
 
-## Gameplay
-1. The game starts by displaying a welcoming message and instructions on how to play.
-2. You enter your guess for the secret number.
-3. Based on your guess, the game tells you if the number is too low or too high.
-4. You continue guessing until you correctly identify the secret number.
-5. Upon guessing correctly, the game congratulates you and provides feedback based on the number of attempts.
+## How to Use
+1. **Run the Program**: Compile and run the program using a C++ compiler.
+2. **Select an Operation**: Choose an operation from the menu by entering the corresponding number.
+3. **Enter Numbers**: Input two numbers when prompted.
+4. **View Results**: The result of the operation will be displayed, and the calculation will be saved to history.
+5. **Repeat or Exit**: You can choose to perform another calculation, view history, clear the screen, or exit the program.
 
-## Enhanced User Interface
-- Includes informative messages to guide players throughout the game.
-- Alerts players about invalid input and out-of-range guesses, ensuring a smooth gameplay experience.
-- Offers different messages based on the number of attempts, adding a personalized touch to the game.
-
+## Menu Options
+- **1**: Addition (+)
+- **2**: Subtraction (-)
+- **3**: Multiplication (*)
+- **4**: Division (/)
+- **5**: Modulus (%)
+- **6**: Show Calculation History
+- **7**: Clear Screen
+- **8**: Exit
